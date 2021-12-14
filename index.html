@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Calculadora</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"></style>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div id="container">
+			<div id="calculator-body">
+				<div class="calculator-brand"> <p>Faz de Conta</p> </div>
+				<div class="calculator-display"> <p id="display"></p> </div>
+				<div id="calculator-buttons">
+					<table>
+						<tr class="calculator-keys">
+							<td><div onclick="type(this);"><p>x</p></div></td>
+							<td><div><p>/</p></div></td>
+							<td><div><p>+</p></div></td>
+							<td><div><p>-</p></div></td>
+						</tr>
+						<tr class="calculator-keys">
+							<td><div><p>9</p></div></td>
+							<td><div><p>8</p></div></td>
+							<td><div><p>7</p></div></td>
+							<td><div id="delete"><p><</p></div></td>
+
+						</tr>
+						<tr class="calculator-keys">
+							<td><div><p>6</p></div></td>
+							<td><div><p>5</p></div></td>
+							<td><div><p>4</p></div></td>
+							<td rowspan="3"><div><p id="equal">=</p></div></td>
+						</tr>
+						<tr class="calculator-keys">
+							<td><div><p>3</p></div></td>
+							<td><div><p>2</p></div></td>
+							<td><div><p>1</p></div></td>
+						</tr>
+						<tr class="calculator-keys">
+							<td><div><p>0</p></div></td>
+							<td><div><p>.</p></div></td>
+							<td><div><p>C</p></div></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+
+	<script type-"text/javascript" src="scripts/controller/CalcController.js"></script>
+	<script type="text/javascript" src="scripts/calculator.js"></script>
+
+	</body>
+
+</html>
